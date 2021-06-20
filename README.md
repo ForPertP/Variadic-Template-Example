@@ -3,7 +3,7 @@ Educational source for students.
 
 Error C7518 fold expressions require at least '/std:c++17'
 
-First, check the mode you are compiling.(Release, Debug)
+First, check the mode you are compiling.(Release, Debug)  
 And modify the option to the corresponding compile mode.
 
 if (ReleaseMode == true)  
