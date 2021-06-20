@@ -11,7 +11,6 @@ int main()
 	cout << fun_equal(0, 0, 0) << '\n';			// true
 	cout << fun_equal(1, 1, 1, 1, 1) << '\n';	// true
 	cout << fun_equal(1, 2, 3, 4, 5) << '\n';	// false
-
+    
 	return 0;
 }
-
