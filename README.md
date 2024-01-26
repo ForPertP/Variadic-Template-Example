@@ -1,4 +1,4 @@
-# Variadic-Template
+# Variadic-Template-Example
 Educational source for students.
 
 Error C7518 fold expressions require at least '/std:c++17'
