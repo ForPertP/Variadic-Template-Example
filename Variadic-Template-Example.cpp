@@ -10,6 +10,7 @@ constexpr auto sum(Args... args)
 	return (args + ...);
 }
 
+
 int main()
 {
 	std::cout << "All elements are equal to 1: " << all_equal(1) << '\n';
