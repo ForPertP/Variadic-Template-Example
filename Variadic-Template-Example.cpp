@@ -19,8 +19,8 @@ int main()
     std::cout << "All elements are equal to 1: " << all_equal(1, 2, 3, 4, 5) << '\n';
 
 
-    std::cout << "Sum of 1, 2, 3, 4, 5: " << sum(1, 2, 3, 4, 5) << std::endl; // 15
-    std::cout << "Sum of 1.5, 2.5, 3.5: " << sum(1.5, 2.5, 3.5) << std::endl;  // 7.5
+    std::cout << "Sum of 1, 2, 3, 4, 5: " << sum(1, 2, 3, 4, 5) << std::endl;
+    std::cout << "Sum of 1.5, 2.5, 3.5: " << sum(1.5, 2.5, 3.5) << std::endl;
 
 
     auto print_sum = [](auto... args)
@@ -28,9 +28,9 @@ int main()
             std::cout << "Sum of given numbers: " << sum(args...) << std::endl;
         };
 
-    print_sum(1, 2, 3, 4, 5);      // 15
-    print_sum(1.5, 2.5, 3.5);      // 7.5
-    print_sum(10, -20, 30, -40);   // -20
+    print_sum(1, 2, 3, 4, 5);
+    print_sum(1.5, 2.5, 3.5);
+    print_sum(10, -20, 30, -40);
 
 
     return 0;
