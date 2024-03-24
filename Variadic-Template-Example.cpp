@@ -3,7 +3,7 @@ constexpr bool all_equal(const T& value, const Args&... args)
 {
 	return ((value == args) && ...);
 }
-
+ 
 template<typename... Args>
 constexpr auto sum(Args... args)
 {
