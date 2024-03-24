@@ -4,14 +4,12 @@ constexpr bool all_equal(const T& value, const Args&... args)
 	return ((value == args) && ...);
 }
 
-
 template<typename... Args>
 constexpr auto sum(Args... args)
 {
 	return (args + ...);
 }
 
-	
 int main()
 {
 	std::cout << "All elements are equal to 1: " << all_equal(1) << '\n';
