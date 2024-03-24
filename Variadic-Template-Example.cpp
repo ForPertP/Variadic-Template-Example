@@ -28,6 +28,7 @@ int main()
 		{
 			std::cout << "Sum of given numbers: " << sum(args...) << std::endl;
 		};
+	
 	print_sum(1, 2, 3, 4, 5);      // 15
 	print_sum(1.5, 2.5, 3.5);      // 7.5
 	print_sum(10, -20, 30, -40);   // -20
